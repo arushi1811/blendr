@@ -1,21 +1,19 @@
 import "./ProfConfirmation.css"
 import illus from "./assets/images/illus1.png"
 
-const ProfConfirmation = ({classcode}) => {
+const StuConfirmation = () => {
     return (
         <div className="prof-confirm">
             <div className="animation">
-                <img alt="" src={illus}></img>
+                <img src={illus} alt=""></img>
             </div>
             <div className="success-msg">
-                <h2>Success!</h2>
+                <h2>You did it!</h2>
                 <p>The team roster will be emailed to you shortly.</p>
-                <h6>Your class code</h6>
-                <h3>{classcode}</h3>
-                <button onClick={() => {navigator.clipboard.writeText(classcode)}}>Copy to Clipboard</button>
+                <h6>Thank you for using Blendo</h6>
             </div>
         </div>
     )
 }
 
-export default ProfConfirmation
+export default StuConfirmation

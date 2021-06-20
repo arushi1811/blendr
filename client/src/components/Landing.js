@@ -1,4 +1,7 @@
 import "./Landing.css"
+import illus from "./assets/images/illus1.png"
+import av1 from "./assets/images/avatar1.png"
+import av2 from "./assets/images/avatar2.png"
 
 const Landing = () => {
     return (
@@ -6,42 +9,55 @@ const Landing = () => {
             <section className="box1">
                 <div className="box1-txt">
                     <h2>
-                        Create diverse teams through randomization and blah blah blah
+                    Challenge existing beliefs, create higher performing teams, and meet new people
                     </h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    Blendo is a team formation randomizer that helps instructors to match people based on their qualities, traits, and skill sets to challenge existing beliefs, create higher performing teams, and meet new people.
                     </p>
                 </div>
                 <div className="box1-blob">
+                    <img src={illus} alt=""></img>
                 </div>
             </section>
             <section className="box2">
                 <div className="box2-blob">
-
+                <img src={av1} alt=""></img>
                 </div>
                 <div className="box2-txt">
                     <h2>
-                        More details here
+                        Who is this for?
                     </h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    Targeted for educators to form student groups with diverse background and skill sets
                     </p>
                 </div>
             </section>
+            <section className="box2">
+                <div className="box2-txt">
+                    <h2>
+                    Why?
+
+                    </h2>
+                    <p>
+                    Promote more open mindedness within individuals
+Create more innovative, higher performing groups
+Help the next generation by creating a cultural shift
+                    </p>
+                </div>
+                <div className="box2-blob">
+                <img src={av2} alt=""></img>
+                </div>
+            </section>
             <section className="box3">
-                <h2>Our features: we are so cool woohoo</h2>
+                <h2>Data Protection and Privacy</h2>
                 <div className="box3-content">
                     <div className="b3-item">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
-                        <div className="b3-blob"></div>
+                        <p>Automate the formation process to eliminate unconscious and implicit biases
+Use a machine learning model that seeks to be non-judgmental.</p>
                     </div>
                     <div className="b3-item">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
-                        <div className="b3-blob"></div>
-                    </div>
-                    <div className="b3-item">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
-                        <div className="b3-blob"></div>
+                        <p>Delete all personal data provided right after and no one will have access to them
+Use one-time form because identity and personal beliefs are fluid!</p>
                     </div>
                 </div>
             </section>

@@ -16,9 +16,9 @@ app.use('/',postr )
 
 
 
-//db connection
-// mongoose.connect(process.env.MONGODB_URL, () => {
-//     console.log("DB Connected.")
-// })
+// db connection
+mongoose.connect(process.env.MONGODB_URL, () => {
+    console.log("DB Connected.")
+})
 
 app.listen(8000);

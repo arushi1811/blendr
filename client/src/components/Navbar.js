@@ -1,17 +1,18 @@
 import "./Navbar.css"
 import logo from "./assets/images/logo.png"
+import {NavLink } from 'react-router-dom';
+
 
 const Navbar = () => {
     return (
         <nav>
             <div className="nav-left">
-                <img src={logo}></img>
+                <NavLink to="/"><img alt="logo" src={logo}></img></NavLink>
             </div>
             <div className="nav-right">
-                <a href="#">Why diversity</a>
-                <a href="#">Resources</a>
-                <a href="#">Create Teams</a>
-                <a href="#">Start Blending</a>
+                <NavLink activeStyle={{borderBottom:"3px solid #B858F2"}} exact to="/">Why Diversity</NavLink>
+                <NavLink activeStyle={{borderBottom:"3px solid #B858F2"}} to="create">Create Teams</NavLink>
+                <NavLink activeStyle={{borderBottom:"3px solid #B858F2"}} to="enroll">Enter Code</NavLink>
             </div>
         </nav>
     )
