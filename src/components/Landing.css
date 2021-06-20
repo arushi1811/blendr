@@ -1,0 +1,90 @@
+* {
+    overflow-x: hidden;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+p {
+    margin-top: 50px;
+    font-size: 1.125rem;
+}
+
+/* box 1 css */
+.box1 {
+    width: 100vw;
+    height: 91vh;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.box1-txt {
+    width: 35%;
+    height: 80%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 5%;
+}
+
+
+
+.box1-blob {
+    width: 55%;
+    height: 80%;
+    background: #AEBCF0;
+}
+
+/* box 2 css */
+
+.box2 {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box2-blob {
+    height: 52%;
+    width: 48%;
+    background: #AEBCF0;
+}
+
+.box2-txt {
+    width: 25%;
+    text-align: left;
+}
+
+/* box 3 css */
+
+.box3 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box3-content {
+    display: flex;
+    justify-content: space-evenly;
+    height:fit-content;
+}
+
+.b3-item {
+    height:fit-content;
+    width: 25%;
+}
+
+.b3-blob {
+    margin-top: 20px;
+    height: 37vh;
+    background: #AEBCF0;
+}
+
+
+
+
+

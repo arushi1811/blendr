@@ -1,0 +1,32 @@
+nav {
+    width: 90%;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-left {
+    margin-left: 5%;
+}
+
+.nav-right {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.125rem;
+}
+
+a {
+    line-height: 2rem;
+}
+
+
+a:link {
+    color: #585757;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #585757;
+}
