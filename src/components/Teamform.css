@@ -1,0 +1,125 @@
+.container h2 {
+    text-align: left;
+}
+
+.input-item p {
+    font-size: 0.8rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container input {
+    border: 2px solid #333333;
+}
+
+.container form {
+    height: 100vh;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.form-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-input {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.input-item {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.container input, 
+.container label {
+    margin-top: 10px;
+}
+
+#grader {
+    width: 40vw;
+    height: 2rem;
+}
+
+#description {
+    width: 40vw;
+    height: 10rem;
+}
+
+#hard-skills, #soft-skills {
+    width: 40vw;
+    height: 4rem;
+}
+
+#total {
+    width: 25vw;
+    height: 2rem;
+}
+
+#special-input {
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#special-input .input-item, #special-input h3 {
+    margin-right: 50px;;
+}
+
+.container button {
+    margin-top: 20px;
+    height: 2rem;
+    background: #B858F2;
+    border: none;
+    color: #FFF;
+}
+
+#team-count, #team-number {
+    height: 2rem;
+    width: 15vw;
+}
+
+.footer-item {
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-item h5 {
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+.form-footer-item {
+    margin-top: 50px;
+    margin-bottom: 50px;;
+    width: 18vw;
+    text-align: left;
+}
+
+#firstname,
+#lastname,
+#race,
+#ethnicity,
+#gender,
+#gpa,
+#hardskills,
+#softskills,
+#email,
+#email-student {
+    height: 2rem;
+    width: 40vw;
+}

@@ -1,12 +1,16 @@
-* {
+.landing {
     overflow-x: hidden;
 }
 
-h2 {
+.box1 h2,
+.box2 h2,
+.box3 h2 {
     font-size: 3rem;
 }
 
-p {
+.box1 p,
+.box2 p,
+.box3 p {
     margin-top: 50px;
     font-size: 1.125rem;
 }

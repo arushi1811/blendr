@@ -1,0 +1,39 @@
+.prof-confirm {
+    height: 91vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: left;
+}
+
+.success-msg {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #333333;
+}
+
+.success-msg h2 {
+    font-size: 3rem;
+}
+
+.success-msg h6, 
+.success-msg h3 {
+    color: #000;
+}
+
+.success-msg h6 {
+    font-size: 1rem;
+}
+
+.success-msg h3 {
+    font-size: 2.8rem;
+}
+
+.success-msg button {
+    height: 3rem;
+    background: #B858F2;
+    border: none;
+    color: #FFF;
+}

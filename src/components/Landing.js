@@ -2,7 +2,7 @@ import "./Landing.css"
 
 const Landing = () => {
     return (
-        <div>
+        <div className="landing">
             <section className="box1">
                 <div className="box1-txt">
                     <h2>
